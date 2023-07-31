@@ -19,12 +19,10 @@ def print_grid(config):
                 countstr = f'{count}'
 
             grid += '[   ]' if 'VOID' in button_config else f'[{countstr}]'
-            # \n
             if count % int(config['front']['width']) == 0:
                 grid += '\n'
         grid += '\n\n'
     print(grid)
-                
                 
 while True:
     print('==========================================================')
