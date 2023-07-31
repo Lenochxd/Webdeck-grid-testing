@@ -36,7 +36,7 @@ while True:
     print(f"{config['front']['height']}x{config['front']['width']}")
 
     input_ = input("new gridsize (example:4x8): ")
-    if input_.lower() not in ['print','p']:
+    if input_.lower() not in ['print','p','']:
         newGridSize = input_.lower().strip().split('x')
         config['front']['height'] = newGridSize[0]
         config['front']['width'] = newGridSize[1]
