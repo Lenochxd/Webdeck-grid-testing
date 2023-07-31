@@ -113,9 +113,57 @@
                     "message": "/usage 'disque E' usage_dict['disks']['E']['total_gb']",
                     "name": "disk E usage",
                     "position": "d7"
+                },
+                {
+                    "background-color": "#ffffff",
+                    "image": "settings2.png",
+                    "image_size": "75%",
+                    "message": "/open-config ",
+                    "name": "Param\u00e8tres"
+                },
+                {
+                    "image": "reload.png",
+                    "image_size": "50%",
+                    "message": "/reload",
+                    "name": "Refresh",
+                    "position": "a4"
+                },
+                {
+                    "image": "fullscreen2.png",
+                    "image_size": "50%",
+                    "message": "/fullscreen",
+                    "name": "Fullscreen",
+                    "position": "a3"
+                },
+                {
+                    "VOID": "VOID"
+                },
+                {
+                    "VOID": "VOID"
+                },
+                {
+                    "VOID": "VOID"
+                },
+                {
+                    "background-color": "#2e2e2e",
+                    "color": "#fff",
+                    "image": "",
+                    "image_size": "100%",
+                    "message": "/usage 'CPU USAGE' usage_dict['cpu']['usage_percent']",
+                    "name": "Cpu usage",
+                    "position": "d8"
+                },
+                {
+                    "background-color": "#2e2e2e",
+                    "color": "#fff",
+                    "image": "",
+                    "image_size": "100%",
+                    "message": "/usage 'GPU USAGE' usage_dict['gpus']['GPU1']['utilization_percent']",
+                    "name": "GPU usage",
+                    "position": "d5"
                 }
             ],
-            "folder1": [
+            "folder2": [
                 {
                     "image": "folder.png",
                     "image_size": "70%",
