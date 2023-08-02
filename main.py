@@ -7,6 +7,8 @@ YOUR CODE HERE
 # resize grid ||| end
 
 
+
+# you don't have to touch that
 def print_grid(config):
     grid = ''
     for folder_id, value in config["front"]["buttons"].items():
@@ -33,13 +35,13 @@ while True:
     print(f"Current Width  : {config['front']['width']}")
     print(f"{config['front']['height']}x{config['front']['width']}")
 
-    input_ = input("new gridsize (example:'4x8' or enter to just print): ")
+    input_ = input("new gridsize (example:'4x8' or press enter to just print): ")
     if input_.lower() not in ['print','p','']:
         newGridSize = input_.lower().strip().split('x')
         config['front']['height'] = newGridSize[0]
         config['front']['width'] = newGridSize[1]
-        with open('config.json', 'w', encoding="utf-8") as json_file:
-            json.dump(config, json_file, indent=4)
+        #with open('config.json', 'w', encoding="utf-8") as json_file:
+        #    json.dump(config, json_file, indent=4)
         update_gridsize(config)
 
         print(f"New Height : {config['front']['height']}")
