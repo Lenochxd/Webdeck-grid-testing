@@ -64,7 +64,7 @@ def update_gridsize(config, new_height, new_width):
                             
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         # we need to be able to remove à row even if theres no row full of voids.
-        # idk how to do that
+        # and I DON'T KNOW how to do that I need help
 
 
     # if width has changed
